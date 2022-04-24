@@ -1,0 +1,125 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+#header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+/* Title Section */
+#title-section {
+    background-color: #1F2937;
+}
+
+.title-item h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title-item p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.title-item button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+}
+
+.title-item img {
+    width: 360px;
+}
+
+
+/* Information Section */
+#info-section {
+    background-color: white;
+}
+
+#info-section h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.info-item span{
+    font-size: 18px;
+    color: #7b7c80;
+}
+
+
+/* Quote Section */
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote-author {
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+/* Call to Action Section */
+#call-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.call-item span {
+    color: #F9FAF8;
+}
+
+#call-title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#call-desc {
+    font-size: 18px;
+}
+
+.call-item button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+}
+
+footer span {
+    color: #F9FAF8;
+}
