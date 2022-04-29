@@ -14,12 +14,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 17px 15%;
 }
 
 #header-logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
+}
+
+#header-div-links {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
 }
 
 .header-link {
@@ -31,6 +38,7 @@ header {
 /* Title Section */
 #title-section {
     background-color: #1F2937;
+    padding-top: 20px;
 }
 
 .title-item h1{
