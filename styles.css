@@ -140,9 +140,16 @@ header {
 
 
 /* Call to Action Section */
+#call-section {
+    padding: 64px 15%;
+}
+
 #call-container {
     background-color: #3882F6;
     border-radius: 8px;
+    padding: 48px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .call-item span {
@@ -163,14 +170,20 @@ header {
     color: #F9FAF8;
     border-width: 2px;
     border-color: #F9FAF8;
-    border-radius: 5px;
+    border-radius: 8px;
     border-style: solid;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 30px;
 }
 
 
 /* Footer */
 footer {
     background-color: #1F2937;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 footer span {
